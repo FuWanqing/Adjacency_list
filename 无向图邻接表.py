@@ -8,7 +8,7 @@
 import copy
 
 class ArcNode():
-    '''定义弧类'''
+    '''定义边类'''
     def __init__(self, node_container):
         self.node_container = node_container                          # 存放头尾结点的列表
         self.node_info_list = []
